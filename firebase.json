@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "build/disneyplus-clone",
+    "public": "build/disney-plus-clone",
     "ignore": [
       "firebase.json",
       "**/.*",
