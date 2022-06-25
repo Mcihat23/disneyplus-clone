@@ -50,7 +50,7 @@ function Home() {
         })
       );
     });
-  }, []);
+  }, [userName]);
 
   return (
     <Container>

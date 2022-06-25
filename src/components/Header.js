@@ -31,7 +31,7 @@ function Header() {
         navigate("/login");
       }
     });
-  }, [userName]);
+  }, []);
 
   const signIn = () => {
     auth.signInWithPopup(provider).then((result) => {
