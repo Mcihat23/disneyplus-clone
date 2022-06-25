@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { auth, provider } from "../firebase";
 import {
   selectUserName,
@@ -27,6 +27,8 @@ function Header() {
           })
         );
         navigate("/");
+      } else {
+        navigate("/login");
       }
     });
   }, [userName]);
